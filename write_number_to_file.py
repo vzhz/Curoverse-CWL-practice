@@ -4,8 +4,12 @@ import io
 ### in python
 
 # zero step
-number = 3
-file_name = "my-file.txt"
+
+# variables will change each time in the future so include these in a yaml file (record) and not here
+# remember, store your state seperately from business logic
+#number = 3
+#file_name = "my-file.txt"
+
 def take_in_file_and_number(n, file):
 	string_n = str(n)
 	f = open(file, "a+")
