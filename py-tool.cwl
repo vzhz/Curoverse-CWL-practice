@@ -12,7 +12,7 @@ baseCommand: python3
 inputs:
   number:
     type: string
-  txt_file:
+  file:
     type: File
 
 outputs:
