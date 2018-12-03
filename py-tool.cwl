@@ -11,7 +11,7 @@ baseCommand: python3
 
 inputs:
   number:
-    type: number
+    type: string
   txt_file:
     type: File
 
