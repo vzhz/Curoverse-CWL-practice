@@ -1,0 +1,3 @@
+py_file:
+  class: File
+  path: ./write_number_to_file.py
