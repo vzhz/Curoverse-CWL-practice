@@ -1,9 +1,11 @@
 # fcn that takes in file & number (then write in CWL)
 import io
 
-### in python
+# allows you to parse command line inputs
+import sys
 
-# zero step
+n = sys.argv[1]
+file = sys.argv[2]
 
 # variables will change each time in the future so include these in a yaml file (record) and not here
 # remember, store your state seperately from business logic
@@ -20,4 +22,4 @@ def take_in_file_and_number(n, file):
 	contents = f.read()
 	# print("I got here 2")
 	print(contents)
-take_in_file_and_number(number, file_name)
+take_in_file_and_number(n, file)
