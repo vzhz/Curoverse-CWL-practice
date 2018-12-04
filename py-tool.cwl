@@ -8,6 +8,7 @@ $namespaces:
 cwlVersion: v1.0
 class: CommandLineTool 
 baseCommand: python3
+stdout: output.txt
 
 inputs:
   pyfile:
@@ -24,7 +25,8 @@ inputs:
       position: 3
 
 outputs:
-  type: stdout
+  myout:
+  	type: stdout
 
 hints:
   arv:RuntimeConstraints:
