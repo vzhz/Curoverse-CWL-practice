@@ -15,7 +15,7 @@ inputs:
   	inputBinding:
   		position: 1
   		prefix: --py_file
-  number:
+  string:
     type: string
     inputBinding:
       position: 2
