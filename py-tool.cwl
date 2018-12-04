@@ -1,5 +1,6 @@
 
-# call using "arvados-cwl-runner --no-wait --api containers py-tool.cwl --pyfile write_number_to_file.py  --string n --file file"
+# call locally using "arvados-cwl-runner --no-wait --api containers py-tool.cwl py_job.yaml"
+# call on arvados using "arvados-cwl-runner --submit --no-wait --api containers py-tool.cwl py_job.yaml"
 
 $namespaces:
   arv: "http://arvados.org/cwl#"

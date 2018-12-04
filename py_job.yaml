@@ -2,7 +2,7 @@ pyfile:
   class: File
   path: ./write_number_to_file.py
 
-mystring: 3
+mystring: "3"
 
 file:
   class: File
