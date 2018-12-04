@@ -10,18 +10,18 @@ class: CommandLineTool
 baseCommand: python3
 
 inputs:
-pyfile:
-  type: File
-  inputBinding:
-    position: 1
-string:
-  type: string
-  inputBinding:
-    position: 2
-file:
-  type: File
-  inputBinding:
-    position: 3
+  pyfile:
+    type: File
+    inputBinding:
+      position: 1
+  mystring:
+    type: string
+    inputBinding:
+      position: 2
+  file:
+    type: File
+    inputBinding:
+      position: 3
 
 outputs:
   type: stdout
