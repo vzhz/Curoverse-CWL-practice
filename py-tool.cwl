@@ -14,17 +14,14 @@ pyfile:
   type: File
   inputBinding:
     position: 1
-    prefix: --pyfile
 string:
   type: string
   inputBinding:
     position: 2
-    prefix: --string
 file:
   type: File
   inputBinding:
     position: 3
-    prefix: --file
 
 outputs:
   type: stdout
