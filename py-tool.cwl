@@ -11,10 +11,10 @@ baseCommand: python3
 
 inputs:
 pyfile:
-	type: File
-	inputBinding:
-		position: 1
-		prefix: --pyfile
+  type: File
+  inputBinding:
+    position: 1
+    prefix: --pyfile
 string:
   type: string
   inputBinding:
