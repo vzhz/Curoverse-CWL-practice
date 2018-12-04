@@ -10,24 +10,24 @@ class: CommandLineTool
 baseCommand: python3
 
 inputs:
-  py_file:
-  	type: File
-  	inputBinding:
-  		position: 1
-  		prefix: --py_file
-  string:
-    type: string
-    inputBinding:
-      position: 2
-      prefix: --string
-  file:
-    type: File
-    inputBinding:
-      position: 3
-      prefix: --file
+py_file:
+	type: File
+	inputBinding:
+		position: 1
+		prefix: --py_file
+string:
+  type: string
+  inputBinding:
+    position: 2
+    prefix: --string
+file:
+  type: File
+  inputBinding:
+    position: 3
+    prefix: --file
 
 outputs:
-    type: stdout
+  type: stdout
 
 hints:
   arv:RuntimeConstraints:
