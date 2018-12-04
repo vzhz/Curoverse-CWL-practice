@@ -26,7 +26,7 @@ inputs:
 
 outputs:
   myout:
-  	type: stdout
+    type: stdout
 
 hints:
   arv:RuntimeConstraints:
