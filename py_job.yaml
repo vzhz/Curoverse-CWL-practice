@@ -1,7 +1,8 @@
-number: 3
-  class: string
-  path: ./write_number_to_file.py
-
-file: my-file.txt
+py_file:
   class: File
   path: ./write_number_to_file.py
+number: 3
+  class: string
+file: my-file.txt
+  class: File
+  path: ./my-file.txt
