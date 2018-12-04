@@ -1,8 +1,9 @@
 pyfile:
   class: File
   path: ./write_number_to_file.py
+
 number: 3
-  class: string
-file: my-file.txt
+
+file:
   class: File
   path: ./my-file.txt
