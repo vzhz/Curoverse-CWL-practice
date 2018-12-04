@@ -1,5 +1,5 @@
 
-# call using "arvados-cwl-runner --no-wait --api containers py-tool.cwl --py_file write_number_to_file.py  --string n --file file"
+# call using "arvados-cwl-runner --no-wait --api containers py-tool.cwl --pyfile write_number_to_file.py  --string n --file file"
 
 $namespaces:
   arv: "http://arvados.org/cwl#"
@@ -10,11 +10,11 @@ class: CommandLineTool
 baseCommand: python3
 
 inputs:
-py_file:
+pyfile:
 	type: File
 	inputBinding:
 		position: 1
-		prefix: --py_file
+		prefix: --pyfile
 string:
   type: string
   inputBinding:

@@ -1,4 +1,4 @@
-py_file:
+pyfile:
   class: File
   path: ./write_number_to_file.py
 number: 3
