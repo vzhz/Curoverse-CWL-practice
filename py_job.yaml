@@ -6,4 +6,4 @@ mystring: "3"
 
 file:
   class: File
-  path: ./my-file.txt
+  path: keep:15c03931149b06dd30cb143e571b11ce+53/my-file.txt
