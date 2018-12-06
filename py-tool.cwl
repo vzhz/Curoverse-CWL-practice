@@ -11,6 +11,13 @@ class: CommandLineTool
 baseCommand: python3
 stdout: output.txt
 
+requirements:
+  class: InitialWorkDirRequirement:
+  listing:
+    entry: $(inputs.src)
+    entryname: inputs.src
+    writable: true
+
 inputs:
   pyfile:
     type: File
@@ -20,10 +27,10 @@ inputs:
     type: string
     inputBinding:
       position: 2
-  file:
+  src:
     type: File
-    inputBinding:
-      position: 3
+    inputBinding: 3
+    valueFrom: $(self.basename)
 
 outputs:
   myout:
