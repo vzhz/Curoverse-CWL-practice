@@ -12,11 +12,11 @@ baseCommand: python3
 stdout: output.txt
 
 requirements:
-  class: InitialWorkDirRequirement
-  listing:
-    entry: $(my-file.txt)
-    entryname: my-file.txt
-    writable: true
+  InitialWorkDirRequirement:
+     listing:
+       entry: $(my-file.txt)
+       entryname: my-file.txt
+       writable: true
 
 inputs:
   pyfile:
