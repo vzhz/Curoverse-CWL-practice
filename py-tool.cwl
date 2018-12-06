@@ -14,8 +14,8 @@ stdout: output.txt
 requirements:
   class: InitialWorkDirRequirement:
   listing:
-    entry: $(inputs.src)
-    entryname: inputs.src
+    entry: $(my-file.txt)
+    entryname: my-file.txt
     writable: true
 
 inputs:
