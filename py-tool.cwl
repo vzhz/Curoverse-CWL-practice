@@ -13,10 +13,10 @@ stdout: output.txt
 
 requirements:
   InitialWorkDirRequirement:
-   - listing:
-      entry: $(my-file.txt)
-      entryname: my-file.txt
-      writable: true
+    listing:
+     - entry: $(my-file.txt)
+       entryname: my-file.txt
+       writable: true
 
 inputs:
   pyfile:
