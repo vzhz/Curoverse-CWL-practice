@@ -29,8 +29,8 @@ inputs:
       position: 2
   src:
     type: File
-    inputBinding: 3
-    valueFrom: $(self.basename)
+    inputBinding:
+      valueFrom: $(self.basename)
 
 outputs:
   myout:
